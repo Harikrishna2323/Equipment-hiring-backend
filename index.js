@@ -21,7 +21,7 @@ const authRouter = require("./routes/auth");
 const bookingRouter = require("./routes/bookings");
 
 //mongoose connection
-mongoose.connect(`${process.env.MONGO_URI}`, {
+mongoose.connect(`${process.env.MONGO_URL}`, {
   useNewUrlParser: true,
 });
 
